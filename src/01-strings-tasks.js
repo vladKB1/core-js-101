@@ -295,7 +295,6 @@ function getCardId(value) {
   }
   ans *= 13;
 
-  console.log(ans);
   const hh = value[0];
   switch (hh) {
     case 'A':
