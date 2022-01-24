@@ -16,5 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    "linebreak-style": 0,
+    "no-multiple-empty-lines": [2, { "max": 99999, "maxEOF": 0 }]
   },
 };
